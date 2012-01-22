@@ -1,4 +1,4 @@
-#summary How to customize the picklist widget
+#summary How to customize the pick list widget
 #labels Featured
 
 = Options =
@@ -52,7 +52,7 @@ The "source" and "target" lists are HTML `<ul>` elements with each list item bei
 
 ===Control Classes===
 
-The button controls that allow the user to move a selected item between the source and target lists are jQuery UI button widgets. In addition to the CSS classes assigned by jQuery UI, the picklist-specific class names can be customized:
+The button controls that allow the user to move a selected item between the source and target lists are jQuery UI button widgets. In addition to the CSS classes assigned by jQuery UI, the pick list-specific class names can be customized:
 
 ||*Name*||*Description*||*Default Value*||
 ||`addAllClass`||"Add All" button that moves all items in the source list over to the target list||`pickList_addAll`||
