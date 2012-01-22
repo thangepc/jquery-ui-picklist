@@ -2,12 +2,12 @@
 
 = Options =
 
-Although the widget works great right out of the box, there are many options that can be passed in to customize all kinds of things.
+Although the widget works great right out of the box, there are several things about it that you can customize.
 
 
 ==Container Classes==
 
-The "source" list, "target" list, and the control buttons are placed in container `<div>`s. The names used for these container classes can be customized:
+The "source" list, "target" list, and the control buttons are placed in container `<div>` elements. The CSS class names for these elements can be customized:
 
 ||*Name*||*Description*||*Default Value*||
 ||`mainClass`||The widget's main `<div>` that surrounds all the child elements||`pickList`||
@@ -15,4 +15,46 @@ The "source" list, "target" list, and the control buttons are placed in containe
 ||`sourceListContainerClass`||The source list container `<div>`||`pickList_sourceListContainer`||
 ||`targetListContainerClass`||The target list container `<div>`||`pickList_targetListContainer`||
 ||`controlsContainerClass`||The button controls container `<div>`||`pickList_controlsContainer`||
-||`listClass`||List `<li>` element. It applies to both the source list and target list `<li>` elements||`pickList_list`||
+||`clearClass`||Used on `<div>`s that need to clear any CSS floats||`pickList_clear`||
+
+
+===List Classes===
+
+The "source" and "target" lists are HTML `<ul>` elements with each list item being a `<li>` element. The CSS class names for these can be customized:
+
+||*Name*||*Description*||*Default Value*||
+||`listClass`||List `<ul>` element. It applies to both the source list and target list `<ul>` elements||`pickList_list`||
+||`sourceListClass`||Source list `<ul>` element||`pickList_sourceList`||
+||`targetListClass`||Target list `<ul>` element||`pickList_targetList`||
+||`listItemClass`||List item `<li>` element||`pickList_listItem`||
+||`selectedListItemClass`||List item that has been selected by the user||`pickList_selectedListItem`||
+
+
+===Control Classes===
+
+The button controls that allow the user to move a selected item between the source and target lists are jQuery UI button widgets. In addition to the CSS classes assigned by jQuery UI, the picklist-specific class names can be customized:
+
+||*Name*||*Description*||*Default Value*||
+||`addAllClass`||The "Add All" button that moves all items in the source list over to the target list||`pickList_addAll`||
+||`addClass`||The "Add" button that moves all selected items in the source list over to the target list||`pickList_add`||
+||`removeAllClass`||The "Remove All" button that moves all items in the target list over to the source list||`pickList_removeAll`||
+||`removeClass`||The "Remove" button that moves all selected items in the target list over to the source list||`pickList_remove`||
+
+
+===List & Button Labels===
+
+The labels used on the lists and the control buttons can be customized:
+
+||*Name*||*Description*||*Default Value*||
+||`addAllLabel`||The HTML used as the label for the "Add All" button (images *are* allowed)||`&gt;&gt;`||
+||`addLabel`||The HTML used as the label for the "Add" button (images *are* allowed)||`&gt;`||
+||`removeAllLabel`||The HTML used as the label for the "Remove All" button (images *are* allowed)||`&lt;&lt;`||
+||`removeLabel`||The HTML used as the label for the "Remove" button (images *are* allowed)||`&lt;`||
+
+
+===Behavior===
+
+As items get moved between the source and target lists, the items may or may not get out of order. Whether or not to handle this can be customized:
+
+||*Name*||*Description*||*Default Value*||
+||`sortItems`||Whether or not to re-sort the lists when items are added or removed||`true`||
