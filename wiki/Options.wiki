@@ -1,4 +1,4 @@
-#summary The widget's options for customization
+#summary Customizing the widget
 
 = Options =
 
