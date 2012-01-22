@@ -1,0 +1,18 @@
+#summary The widget's options for customization
+
+= Options =
+
+Although the widget works great right out of the box, there are many options that can be passed in to customize all kinds of things.
+
+
+==Container Classes==
+
+The "source" list, "target" list, and the control buttons are placed in container `<div>`s. The names used for these container classes can be customized:
+
+||*Name*||*Description*||*Default Value*||
+||`mainClass`||The widget's main `<div>` that surrounds all the child elements||`pickList`||
+||`listContainerClass`||List container `<div>`. It applies to both the source list container `<div>` as well as the target list container `<div>`||`pickList_listContainer`||
+||`sourceListContainerClass`||The source list container `<div>`||`pickList_sourceListContainer`||
+||`targetListContainerClass`||The target list container `<div>`||`pickList_targetListContainer`||
+||`controlsContainerClass`||The button controls container `<div>`||`pickList_controlsContainer`||
+||`listClass`||List `<li>` element. It applies to both the source list and target list `<li>` elements||`pickList_list`||
