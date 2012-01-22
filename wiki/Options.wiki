@@ -44,6 +44,9 @@ The "source" and "target" lists are HTML `<ul>` elements with each list item bei
 ||`targetListClass`||Target list `<ul>` element||`pickList_targetList`||
 ||`listItemClass`||List item `<li>` element||`pickList_listItem`||
 ||`selectedListItemClass`||List item that has been selected by the user||`pickList_selectedListItem`||
+||`listLabelClass`||List label `<div>`. It applies to the label `<div>` elements for both the source list and the target list||`pickList_listLabel`||
+||`sourceListLabelClass`||Label `<div>` for the source list||`pickList_sourceListLabel`||
+||`targetListLabelClass`||Label `<div>` for the target list||`pickList_targetListLabel`||
 
 
 ===Control Classes===
@@ -62,10 +65,7 @@ The button controls that allow the user to move a selected item between the sour
 The labels used on the lists and the control buttons can be customized:
 
 ||*Name*||*Description*||*Default Value*||
-||`listLabelClass`||List label `<div>`. It applies to the label `<div>` elements for both the source list and the target list||`pickList_listLabel`||
-||`sourceListLabelClass`||Label `<div>` for the source list||`pickList_sourceListLabel`||
 ||`sourceListLabel`||HTML used as the label for the source list||`Available`||
-||`targetListLabelClass`||Label `<div>` for the target list||`pickList_targetListLabel`||
 ||`targetListLabel`||HTML used as the label for the target list||`Selected`||
 ||`addAllLabel`||HTML used as the label for the "Add All" button (images *are* allowed)||`&gt;&gt;`||
 ||`addLabel`||HTML used as the label for the "Add" button (images *are* allowed)||`&gt;`||
