@@ -2,7 +2,23 @@
 
 = Options =
 
-Although the widget works great right out of the box, there are several things about it that you can customize.
+Although the widget works great right out of the box, there are several things about it that you can customize by passing in an array of options like this:
+
+{{{
+$(function()
+{
+    $("#foobar").pickList(
+    {
+        mainClass:       "foobar",
+        sourceListLabel: "Not Added",
+        targetListLabel: "Added",
+        addAllLabel:     "Add All",
+        addLabel:        "Add",
+        removeAllLabel:  "Remove All",
+        removeLabel:     "Remove"
+    });
+}
+}}}
 
 
 ==Container Classes==
