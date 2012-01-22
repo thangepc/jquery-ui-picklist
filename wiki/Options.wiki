@@ -35,10 +35,10 @@ The "source" and "target" lists are HTML `<ul>` elements with each list item bei
 The button controls that allow the user to move a selected item between the source and target lists are jQuery UI button widgets. In addition to the CSS classes assigned by jQuery UI, the picklist-specific class names can be customized:
 
 ||*Name*||*Description*||*Default Value*||
-||`addAllClass`||The "Add All" button that moves all items in the source list over to the target list||`pickList_addAll`||
-||`addClass`||The "Add" button that moves all selected items in the source list over to the target list||`pickList_add`||
-||`removeAllClass`||The "Remove All" button that moves all items in the target list over to the source list||`pickList_removeAll`||
-||`removeClass`||The "Remove" button that moves all selected items in the target list over to the source list||`pickList_remove`||
+||`addAllClass`||"Add All" button that moves all items in the source list over to the target list||`pickList_addAll`||
+||`addClass`||"Add" button that moves all selected items in the source list over to the target list||`pickList_add`||
+||`removeAllClass`||"Remove All" button that moves all items in the target list over to the source list||`pickList_removeAll`||
+||`removeClass`||"Remove" button that moves all selected items in the target list over to the source list||`pickList_remove`||
 
 
 ===List & Button Labels===
@@ -46,10 +46,15 @@ The button controls that allow the user to move a selected item between the sour
 The labels used on the lists and the control buttons can be customized:
 
 ||*Name*||*Description*||*Default Value*||
-||`addAllLabel`||The HTML used as the label for the "Add All" button (images *are* allowed)||`&gt;&gt;`||
-||`addLabel`||The HTML used as the label for the "Add" button (images *are* allowed)||`&gt;`||
-||`removeAllLabel`||The HTML used as the label for the "Remove All" button (images *are* allowed)||`&lt;&lt;`||
-||`removeLabel`||The HTML used as the label for the "Remove" button (images *are* allowed)||`&lt;`||
+||`listLabelClass`||List label `<div>`. It applies to the label `<div>` elements for both the source list and the target list||`pickList_listLabel`||
+||`sourceListLabelClass`||Label `<div>` for the source list||`pickList_sourceListLabel`||
+||`sourceListLabel`||HTML used as the label for the source list||`Available`||
+||`targetListLabelClass`||Label `<div>` for the target list||`pickList_targetListLabel`||
+||`targetListLabel`||HTML used as the label for the target list||`Selected`||
+||`addAllLabel`||HTML used as the label for the "Add All" button (images *are* allowed)||`&gt;&gt;`||
+||`addLabel`||HTML used as the label for the "Add" button (images *are* allowed)||`&gt;`||
+||`removeAllLabel`||HTML used as the label for the "Remove All" button (images *are* allowed)||`&lt;&lt;`||
+||`removeLabel`||HTML used as the label for the "Remove" button (images *are* allowed)||`&lt;`||
 
 
 ===Behavior===
