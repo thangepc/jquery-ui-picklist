@@ -1,4 +1,5 @@
 #summary How to customize the picklist widget
+#labels Featured
 
 = Options =
 
