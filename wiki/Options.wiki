@@ -1,4 +1,4 @@
-#summary Customizing the widget
+#summary How to customize the picklist widget
 
 = Options =
 
