@@ -24,7 +24,7 @@ $(function()
 
 ==Container Classes==
 
-The "source" list, "target" list, and the control buttons are placed in container `<div>` elements. The CSS class names for these elements can be customized:
+The "source" list, the "target" list, and the control buttons are placed in container `<div>` elements. The CSS class names for these elements can be customized:
 
 ||*Name*||*Description*||*Default Value*||
 ||`mainClass`||The widget's main `<div>` that surrounds all the child elements||`pickList`||
@@ -66,8 +66,8 @@ The button controls that allow the user to move a selected item between the sour
 The labels used on the lists and the control buttons can be customized:
 
 ||*Name*||*Description*||*Default Value*||
-||`sourceListLabel`||HTML used as the label for the source list||`Available`||
-||`targetListLabel`||HTML used as the label for the target list||`Selected`||
+||`sourceListLabel`||HTML used as the label for the source list (images *are* allowed)||`Available`||
+||`targetListLabel`||HTML used as the label for the target list (images *are* allowed)||`Selected`||
 ||`addAllLabel`||HTML used as the label for the "Add All" button (images *are* allowed)||`&gt;&gt;`||
 ||`addLabel`||HTML used as the label for the "Add" button (images *are* allowed)||`&gt;`||
 ||`removeAllLabel`||HTML used as the label for the "Remove All" button (images *are* allowed)||`&lt;&lt;`||
