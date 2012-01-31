@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>jQuery UI PickList Rich Content Example</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../jquery-ui-picklist.js"></script>
+	<script type="text/javascript">
+		$(function()
+		{
+			// Example of adding rich content items during picklist creation.
+			$("#rich").pickList(
+			{
+				targetRichItems:
+				[
+					{
+						value:   3,
+						label:   "Basketball",
+						element: $(".rich1")
+					},
+
+					{
+						value: 4,
+						label: "Soccer",
+						element: $("<img src='images/soccer.png'/>")
+					}
+				]
+			});
+
+			// Example of adding rich content items after picklist creation.
+			$("#rich").pickList("insert",
+			{
+				value:   5,
+				label:   "Football",
+				element: $(".rich3")
+			});
+		});
+	</script>
+
+	<style type="text/css">
+		.pickList_sourceListContainer, .pickList_controlsContainer, .pickList_targetListContainer { float: left; margin: 0.25em; }
+		.pickList_controlsContainer { text-align: center; }
+		.pickList_controlsContainer button { display: block; width: 100%; text-align: center; }
+		.pickList_list { list-style-type: none; margin: 0; padding: 0; float: left; width: 150px; height: 75px; border: 1px inset; overflow-y: auto; cursor: default; }
+		.pickList_selectedListItem { background-color: #A3C8F5; }
+		.pickList_listLabel { font-size: 0.9em; font-weight: bold; text-align: center; }
+		.pickList_clear { clear: both; }
+
+		.pickList_listItem .image { float: left; }
+		.pickList_listItem .label { float: left; padding-left: 0.25em; }
+		.pickList_listItem .clear { clear: both; }
+	</style>
+</head>
+
+<body>
+
+	<div>
+		<select id="rich" name="rich" multiple="multiple">
+			<option value="1">Non-Rich Item 1</option>
+			<option value="2">Non-Rich Item 2</option>
+		</select>
+
+		<div class="rich1">
+			<div class="image"><img src="images/basketball.png" /></div>
+			<div class="label">Basketball</div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="rich3">
+			<img src="images/football.png" /> Football
+		</div>
+	</div>
+
+</body></html>
