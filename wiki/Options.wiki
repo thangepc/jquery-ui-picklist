@@ -81,3 +81,12 @@ As items get moved between the source and target lists, the items may or may not
 ||*Name*||*Description*||*Default Value*||
 ||`sortItems`||Whether or not to re-sort the lists when items are added or removed||`true`||
 ||`sortAttribute`||The element attribute name on which to sort list items (if `sortItems` is `true`)||`label`||
+
+
+===Rich Content===
+
+Items can be added which have rich HTML content. These rich content items can be added after initialization, or they can be passed in during initialization as options:
+
+||*Name*||*Description*||*Default Value*||
+||`sourceRichItems`||Array of rich item objects to be added as items to the "source" list||`[]` (empty array)||
+||`targetRichItems`||Array of rich item objects to be added as items to the "target" list||`[]` (empty array)||
