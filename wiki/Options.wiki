@@ -80,3 +80,4 @@ As items get moved between the source and target lists, the items may or may not
 
 ||*Name*||*Description*||*Default Value*||
 ||`sortItems`||Whether or not to re-sort the lists when items are added or removed||`true`||
+||`sortAttribute`||The element attribute name on which to sort list items (if `sortItems` is `true`)||`label`||
