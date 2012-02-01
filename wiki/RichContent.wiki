@@ -1,0 +1,71 @@
+#summary Adding "rich content" items
+
+=Introduction=
+
+Rich content items can be added to the widget by supplying one or more "rich item object"s. A rich item object is a JavaScript literal object that describes a rich content item to be added.
+
+
+==Rich Item Object==
+
+An example rich item object:
+
+{{{
+{
+   value:    1,
+   label:    "Foobar",
+   selected: true,
+   element:  $("#foobar")
+}
+}}}
+
+Here is a description of each property:
+
+  * `value` is the value that is POSTed when the form is submitted, if the item has been added to the "target" list. Corresponds to the `value` attribute of a select box `<option>` element.
+
+  * `label` is a user-friendly label for the item and is used when sorting. Corresponds to the body of a select box `<option>` element.
+
+  * `selected` tells the widget where to insert the rich item. A `true` value inserts the item into the "target" list; a `false` value inserts the item into the "source" list. Corresponds to the `selected` attribute of a select box `<option>` element.
+
+  * `element` is the actual DOM element to add as the list item. This can be an element that already exists in the DOM, or it can be built on-the-fly.
+
+
+==Adding Items During Initialization==
+
+Rich content items can be passed in as an array of rich item objects thru the `richItems` option:
+
+{{{
+$("#example").pickList(
+{
+    richItems:
+    [
+        {
+            value: 3,
+            label: "Test",
+            selected: true,
+            element: $(".someElement")
+        },
+
+        { ... }, { ... }, { ... }    // Multiple objects
+    ]
+});
+}}}
+
+==Adding Items After Initialization==
+
+Rich content items can be added after the widget has been initialized by passing a rich item object to the `insert` function:
+
+{{{
+$("#example").pickList();
+
+// Do some other stuff.
+
+$("#example").pickList("insert",
+{
+    {
+        value: 3,
+        label: "Test",
+        selected: true,
+        element: $(".someElement")
+    }
+});
+}}}
