@@ -44,6 +44,7 @@ The "source" and "target" lists are HTML `<ul>` elements with each list item bei
 ||`sourceListClass`||Source list `<ul>` element||`pickList_sourceList`||
 ||`targetListClass`||Target list `<ul>` element||`pickList_targetList`||
 ||`listItemClass`||List item `<li>` element||`pickList_listItem`||
+||`richListItemClass`||List item that contains rich content||`pickList_richListItem`||
 ||`selectedListItemClass`||List item that has been selected by the user||`pickList_selectedListItem`||
 ||`listLabelClass`||List label `<div>`. It applies to the label `<div>` elements for both the source list and the target list||`pickList_listLabel`||
 ||`sourceListLabelClass`||Label `<div>` for the source list||`pickList_sourceListLabel`||
