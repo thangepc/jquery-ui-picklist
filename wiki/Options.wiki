@@ -88,4 +88,4 @@ As items get moved between the source and target lists, the items may or may not
 Items can be added which have rich HTML content. These rich content items can be added after initialization, or they can be passed in during initialization as options:
 
 ||*Name*||*Description*||*Default Value*||
-||`richItems`||Array of [RichContent rich item objects] to be added as list items||`[]` (empty array)||
+||`richItems`||Array of [RichContent#Rich_Item_Object rich item objects] to be added as list items||`[]` (empty array)||
