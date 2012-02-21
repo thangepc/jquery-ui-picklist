@@ -1,4 +1,5 @@
 #summary Adding "rich content" items
+#labels Featured
 
 =Introduction=
 
