@@ -3,3 +3,7 @@
 Using [http://jsfiddle.net jsFiddle], you can easily see the widget in operation. Click one of the demos below to load it into jsFiddle:
 
   * [http://jsfiddle.net/awnry/ScX4S/ Basic Demo]
+  * [http://jsfiddle.net/awnry/6QB5f/ Advanced Demo]
+  * [http://jsfiddle.net/awnry/XMdPE/ Rich Content Demo]
+
+Share your own fiddles, and I might post them here!
