@@ -1,0 +1,5 @@
+#summary Online demos of the widget
+
+Using [http://jsfiddle.net jsFiddle], you can easily see the widget in operation. Click one of the demos below to load it into jsFiddle:
+
+  * [http://jsfiddle.net/awnry/ScX4S/ Basic Demo]
