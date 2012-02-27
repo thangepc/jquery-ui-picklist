@@ -26,7 +26,7 @@ $(function()
 
 The "source" list, the "target" list, and the control buttons are placed in container `<div>` elements. The CSS class names for these elements can be customized:
 
-||*Name*||*Description*||*Default Value*||
+||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
 ||`mainClass`||The widget's main `<div>` that surrounds all the child elements||`pickList`||
 ||`listContainerClass`||List container `<div>`. It applies to both the source list container `<div>` as well as the target list container `<div>`||`pickList_listContainer`||
 ||`sourceListContainerClass`||The source list container `<div>`||`pickList_sourceListContainer`||
@@ -39,7 +39,7 @@ The "source" list, the "target" list, and the control buttons are placed in cont
 
 The "source" and "target" lists are HTML `<ul>` elements with each list item being a `<li>` element. The CSS class names for these can be customized:
 
-||*Name*||*Description*||*Default Value*||
+||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
 ||`listClass`||List `<ul>` element. It applies to both the source list and target list `<ul>` elements||`pickList_list`||
 ||`sourceListClass`||Source list `<ul>` element||`pickList_sourceList`||
 ||`targetListClass`||Target list `<ul>` element||`pickList_targetList`||
@@ -55,7 +55,7 @@ The "source" and "target" lists are HTML `<ul>` elements with each list item bei
 
 The button controls that allow the user to move a selected item between the source and target lists are jQuery UI button widgets. In addition to the CSS classes assigned by jQuery UI, the pick list-specific class names can be customized:
 
-||*Name*||*Description*||*Default Value*||
+||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
 ||`addAllClass`||"Add All" button that moves all items in the source list over to the target list||`pickList_addAll`||
 ||`addClass`||"Add" button that moves all selected items in the source list over to the target list||`pickList_add`||
 ||`removeAllClass`||"Remove All" button that moves all items in the target list over to the source list||`pickList_removeAll`||
@@ -66,7 +66,7 @@ The button controls that allow the user to move a selected item between the sour
 
 The labels used on the lists and the control buttons can be customized:
 
-||*Name*||*Description*||*Default Value*||
+||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
 ||`sourceListLabel`||HTML used as the label for the source list (images *are* allowed)||`Available`||
 ||`targetListLabel`||HTML used as the label for the target list (images *are* allowed)||`Selected`||
 ||`addAllLabel`||HTML used as the label for the "Add All" button (images *are* allowed)||`&gt;&gt;`||
@@ -79,7 +79,7 @@ The labels used on the lists and the control buttons can be customized:
 
 As items get moved between the source and target lists, the items may or may not get out of order. Whether or not to handle this can be customized:
 
-||*Name*||*Description*||*Default Value*||
+||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
 ||`sortItems`||Whether or not to re-sort the lists when items are added or removed||`true`||
 ||`sortAttribute`||The element attribute name on which to sort list items (if `sortItems` is `true`)||`label`||
 
@@ -88,5 +88,5 @@ As items get moved between the source and target lists, the items may or may not
 
 Items can be added which have rich HTML content. These rich content items can be added after initialization, or they can be passed in during initialization as options:
 
-||*Name*||*Description*||*Default Value*||
+||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
 ||`richItems`||Array of [RichContent#Rich_Item_Object rich item objects] to be added as list items||`[]` (empty array)||
