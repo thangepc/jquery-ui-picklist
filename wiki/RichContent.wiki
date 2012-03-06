@@ -32,12 +32,12 @@ Here is a description of each property:
 
 ==Adding Items During Initialization==
 
-Rich content items can be passed in as an array of rich item objects thru the `richItems` option:
+Rich content items can be passed in as an array of rich item objects thru the `items` option:
 
 {{{
 $("#example").pickList(
 {
-    richItems:
+    items:
     [
         {
             value: 3,
