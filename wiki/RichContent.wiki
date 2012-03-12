@@ -1,6 +1,8 @@
 #summary Adding "rich content" items
 #labels Deprecated
 
+<blockquote>*_This page is deprecated as of version 0.8.0. Please see the rich content section of the [AddingItems#Adding_Rich_Content_Items Adding Items article] for current information._*</blockquote>
+
 =Introduction=
 
 Rich content items can be added to the widget by supplying one or more "rich item object"s. A rich item object is a JavaScript literal object that describes a rich content item to be added.
