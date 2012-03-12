@@ -1,5 +1,5 @@
 #summary Adding "rich content" items
-#labels Featured
+#labels Deprecated
 
 =Introduction=
 
