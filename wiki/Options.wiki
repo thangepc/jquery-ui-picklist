@@ -89,5 +89,7 @@ As items get moved between the source and target lists, the items may or may not
 Items can be added programmatically after initialization, or they can be passed in during initialization as options:
 
 ||<b>Name</b>||<b>Description</b>||<b>Default Value</b>||
-||`items`||Array of regular item objects and/or [RichContent#Rich_Item_Object rich item objects] to be added as list items||`[]` (empty array)||
+||`items`||Array of regular [AddingItems#Item_Object item objects] and/or [AddingItems#Adding_Rich_Content_Items rich item objects] to be added as list items||`[]` (empty array)||
 ||`richItems`||Array of [RichContent#Rich_Item_Object rich item objects] to be added as list items. *This option is deprecated as of v0.8.0. Use the* `items` *option instead.*||`[]` (empty array)||
+
+Click *[AddingItems here]* for full documentation on programmatically adding items to the widget.
