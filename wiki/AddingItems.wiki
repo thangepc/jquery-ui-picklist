@@ -72,7 +72,7 @@ $("#example").pickList("insert",
 
 Rich content items can be added to the widget just like regular items. To do so, you simply pass a "rich item object" where a regular item object would normally go.
 
-An example item object:
+An example rich item object:
 
 {{{
 {
