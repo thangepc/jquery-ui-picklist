@@ -1,4 +1,4 @@
-#summary Adding regular and rich content items
+#summary Adding regular and rich content items (programmatically)
 #labels Featured
 
 =Introduction=
@@ -58,15 +58,13 @@ $("#example").pickList();
 
 $("#example").pickList("insert",
 {
-    {
-        value: 3,
-        label: "Test",
-        selected: true
-    }
+    value: 3,
+    label: "Test",
+    selected: true
 });
 }}}
 
-*[http://jsfiddle.net/awnry/6QB5f/ Here's an example]* of programmatically adding items.
+*[http://jsfiddle.net/awnry/6QB5f/ Here's an example]* of adding items.
 
 ==Adding Rich Content Items==
 
@@ -85,8 +83,8 @@ An example rich item object:
 
 As you can see, a rich item object is essentially a regular item object with one extra property:
 
-`element` is the actual DOM element to add as the list item. This can be an element that already exists in the DOM, or it can be built on-the-fly.
+  * `element` is the actual DOM element to add as the list item. This can be an element that already exists in the DOM, or it can be built on-the-fly.
 
 Rich item objects can be used wherever a regular item object can be used, so you can pass them in with the `items` array during initialization and the `insert` function after initialization, as shown above with regular item objects.
 
-*[http://jsfiddle.net/awnry/XMdPE/ Here's an example]* of programmatically adding rich content items.
+*[http://jsfiddle.net/awnry/XMdPE/ Here's an example]* of adding rich content items.
