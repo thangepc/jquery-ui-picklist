@@ -14,7 +14,8 @@ $("#foobar").pickList(
     addAllLabel:     "Add All",
     addLabel:        "Add",
     removeAllLabel:  "Remove All",
-    removeLabel:     "Remove"
+    removeLabel:     "Remove",
+    sortItems:       false
 });
 }}}
 
