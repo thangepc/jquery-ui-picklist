@@ -3,7 +3,7 @@
 
 = Options =
 
-Although the widget works great right out of the box, there are several things about it that you can customize by passing in an object where each property is an option, such as this:
+Although the widget works great right out of the box, there are several things about it that you can customize by passing in an object where each option you want to set is a property, such as this:
 
 {{{
 $("#foobar").pickList(
