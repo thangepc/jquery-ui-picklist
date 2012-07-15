@@ -1,4 +1,4 @@
-#summary Online demos of the widget
+#summary Live demos of the widget
 #labels Featured
 
 Using [http://jsfiddle.net jsFiddle], you can easily see the widget in operation. Click one of the demos below to load it into jsFiddle:
