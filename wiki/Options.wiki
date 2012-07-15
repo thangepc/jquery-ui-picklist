@@ -88,6 +88,5 @@ Items can be added programmatically after initialization, or they can be passed 
 
 ||<b>Name</b>||<b>Description</b>||<b>Type</b>||<b>Default Value</b>||
 ||`items`||Array of regular [AddingItems#Item_Object item objects] and/or [AddingItems#Adding_Rich_Content_Items rich item objects] to be added as list items||array||(empty array)||
-||`richItems`||Array of [RichContent#Rich_Item_Object rich item objects] to be added as list items. *This option is deprecated as of v0.8.0. Use the* `items` *option instead.*||array||(empty array)||
 
 Click *[AddingItems here]* for full documentation on programmatically adding items to the widget.
