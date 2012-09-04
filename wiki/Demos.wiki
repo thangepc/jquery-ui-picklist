@@ -8,5 +8,6 @@ Using [http://jsfiddle.net jsFiddle], you can easily see the widget in operation
   * [http://jsfiddle.net/awnry/XMdPE/ Rich Content Demo]
   * [http://jsfiddle.net/awnry/MJunV/ Callbacks Demo]
   * [http://jsfiddle.net/awnry/TemLU/ Non-Numeric Values Test]
+  * [http://jsfiddle.net/awnry/QzjTs/ Form Demo]
 
 Share your own fiddles, and I might post them here!
