@@ -317,3 +317,27 @@ $(".selector").bind("pickListafterRemoveAll", function() {
     ...
 });
 }}}
+
+----
+
+==onChange==
+
+This event is triggered whenever one or more items are added to, or removed from, the "target" list, i.e. when the pickList's selection changes. It's essentially the pickList equivalent of a `<select>` element's `onChange` event.
+
+====Code Example====
+
+Supply a callback function to handle the `onChange` event as an init option.
+
+{{{
+$(".selector").pickList({
+    onChange: function() { ... }
+});
+}}}
+
+Bind to the `onChange` event by type: `pickListonChange`
+
+{{{
+$(".selector").bind("pickListonChange", function() {
+    ...
+});
+}}}
