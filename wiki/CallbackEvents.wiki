@@ -23,7 +23,7 @@ Click on an event name to view more information.
 ||afterRemove||pickListafterRemove||After the items have been moved (when the "Remove" button gets invoked)||
 ||beforeRemoveAll||pickListbeforeRemoveAll||Before any items have been moved (when the "Remove All" button gets invoked)||
 ||afterRemoveAll||pickListafterRemoveAll||After the items have been moved (when the "Remove All" button gets invoked)||
-||onChange||pickListonChange||Whenever one or more items are added or removed in the "target" list||
+||onChange||pickListonChange||Whenever one or more items are added to, or removed from, the "target" list||
 ||beforeRefresh||pickListbeforeRefresh||Just before the widget is refreshed||
 ||afterRefresh||pickListafterRefresh||Just after the widget is refreshed||
 ||beforeRefreshControls||pickListbeforeRefreshControls||Just before the widget's control buttons are refreshed||
