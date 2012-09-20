@@ -173,3 +173,51 @@ $(".selector").bind("pickListafterAddAll", function() {
     ...
 });
 }}}
+
+----
+
+==beforeAdd==
+
+This event is triggered whenever the "Add" button is invoked, before any of the selected items are moved from the "source" list to the "target" list.
+
+====Code Example====
+
+Supply a callback function to handle the `beforeAdd` event as an init option.
+
+{{{
+$(".selector").pickList({
+    beforeAdd: function() { ... }
+});
+}}}
+
+Bind to the `beforeAdd` event by type: `pickListbeforeAdd`
+
+{{{
+$(".selector").bind("pickListbeforeAdd", function() {
+    ...
+});
+}}}
+
+----
+
+==afterAdd==
+
+This event is triggered whenever the "Add" button is invoked, after all of the selected items are moved from the "source" list to the "target" list.
+
+====Code Example====
+
+Supply a callback function to handle the `afterAdd` event as an init option.
+
+{{{
+$(".selector").pickList({
+    afterAdd: function() { ... }
+});
+}}}
+
+Bind to the `afterAdd` event by type: `pickListafterAdd`
+
+{{{
+$(".selector").bind("pickListafterAdd", function() {
+    ...
+});
+}}}
