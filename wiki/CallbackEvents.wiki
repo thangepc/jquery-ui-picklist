@@ -1,17 +1,17 @@
 #summary Hooking into the widget's callback events
 #labels Featured
 
-= Introduction =
+=Introduction=
 
 Several callback events were added to the widget to facilitate extending or altering the functionality without having to directly modify the widget's source code. This page documents what events are exposed and how to use them.
 
 
-= Events =
+=Events=
 
 Click on an event name to view more information.
 
 ||<b>Name</b>||<b>Type</b>||<b>Gets Triggered...</b>||
-||beforeBuild||pickListbeforeBuild||Just before the picklist is initially built||
+||[#beforeBuild beforeBuild]||pickListbeforeBuild||Just before the picklist is initially built||
 ||afterBuild||pickListafterBuild||Just after the picklist is initially built||
 ||beforePopulate||pickListbeforePopulate||Just before the "source" and "target" lists are initially populated||
 ||afterPopulate||pickListafterPopulate||Just after the "source" and "target" lists are initially populated||
@@ -29,3 +29,26 @@ Click on an event name to view more information.
 ||beforeRefreshControls||pickListbeforeRefreshControls||Just before the widget's control buttons are refreshed||
 ||afterRefreshControls||pickListafterRefreshControls||Just after the widget's control buttons are refreshed||
 ||onDestroy||pickListonDestroy||When the widget is destroyed||
+
+==beforeBuild==
+
+This event is triggered just before the picklist widget is initially built. This happens only once, when the widget is first initialized.
+
+====Code Example====
+
+Supply a callback function to handle the `beforeBuild` event as an init option.
+
+{{{
+    $(".selector").pickList(
+    {
+        beforeBuild: function() { ... }
+    });
+}}}
+
+Bind to the `beforeBuild` event by type: `pickListbeforeBuild`.
+
+{{{
+    $(".selector").bind( "pickListbeforeBuild", function() {
+        ...
+    });
+}}}
