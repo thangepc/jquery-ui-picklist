@@ -221,3 +221,51 @@ $(".selector").bind("pickListafterAdd", function() {
     ...
 });
 }}}
+
+----
+
+==beforeRemove==
+
+This event is triggered whenever the "Remove" button is invoked, before any of the selected items are moved from the "target" list to the "source" list.
+
+====Code Example====
+
+Supply a callback function to handle the `beforeRemove` event as an init option.
+
+{{{
+$(".selector").pickList({
+    beforeRemove: function() { ... }
+});
+}}}
+
+Bind to the `beforeRemove` event by type: `pickListbeforeRemove`
+
+{{{
+$(".selector").bind("pickListbeforeRemove", function() {
+    ...
+});
+}}}
+
+----
+
+==afterRemove==
+
+This event is triggered whenever the "Remove" button is invoked, after all of the selected items are moved from the "target" list to the "source" list.
+
+====Code Example====
+
+Supply a callback function to handle the `afterRemove` event as an init option.
+
+{{{
+$(".selector").pickList({
+    afterRemove: function() { ... }
+});
+}}}
+
+Bind to the `afterRemove` event by type: `pickListafterRemove`
+
+{{{
+$(".selector").bind("pickListafterRemove", function() {
+    ...
+});
+}}}
