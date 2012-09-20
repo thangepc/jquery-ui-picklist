@@ -41,8 +41,7 @@ This event is triggered just before the picklist widget is initially built. This
 Supply a callback function to handle the `beforeBuild` event as an init option.
 
 {{{
-    $(".selector").pickList(
-    {
+    $(".selector").pickList({
         beforeBuild: function() { ... }
     });
 }}}
@@ -55,6 +54,8 @@ Bind to the `beforeBuild` event by type: `pickListbeforeBuild`.
     });
 }}}
 
+----
+
 ==afterBuild==
 
 This event is triggered just after the picklist widget is initially built. This happens only once, when the widget is first initialized.
@@ -64,8 +65,7 @@ This event is triggered just after the picklist widget is initially built. This 
 Supply a callback function to handle the `afterBuild` event as an init option.
 
 {{{
-    $(".selector").pickList(
-    {
+    $(".selector").pickList({
         afterBuild: function() { ... }
     });
 }}}
@@ -74,6 +74,30 @@ Bind to the `afterBuild` event by type: `pickListafterBuild`.
 
 {{{
     $(".selector").bind( "pickListafterBuild", function() {
+        ...
+    });
+}}}
+
+----
+
+==beforePopulate==
+
+This event is triggered just before the "source" and "target" lists are initially populated with items. This happens only once, when the widget is first initialized.
+
+====Code Example====
+
+Supply a callback function to handle the `beforePopulate` event as an init option.
+
+{{{
+    $(".selector").pickList({
+        beforePopulate: function() { ... }
+    });
+}}}
+
+Bind to the `beforePopulate` event by type: `pickListbeforePopulate`.
+
+{{{
+    $(".selector").bind( "pickListbeforePopulate", function() {
         ...
     });
 }}}
