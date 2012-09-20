@@ -12,23 +12,23 @@ Click on an event name to view more information.
 
 ||<b>Name</b>||<b>Type</b>||<b>Gets Triggered...</b>||
 ||[#beforeBuild beforeBuild]||pickListbeforeBuild||Just before the picklist is initially built||
-||afterBuild||pickListafterBuild||Just after the picklist is initially built||
-||beforePopulate||pickListbeforePopulate||Just before the "source" and "target" lists are initially populated||
-||afterPopulate||pickListafterPopulate||Just after the "source" and "target" lists are initially populated||
-||beforeAddAll||pickListbeforeAddAll||Before any items have been moved (when the "Add All" button gets invoked)||
-||afterAddAll||pickListafterAddAll||After the items have been moved (when the "Add All" button gets invoked)||
-||beforeAdd||pickListbeforeAdd||Before any items have been moved (when the "Add" button gets invoked)||
-||afterAdd||pickListafterAdd||After the items have been moved (when the "Add" button gets invoked)||
-||beforeRemove||pickListbeforeRemove||Before any items have been moved (when the "Remove" button gets invoked)||
-||afterRemove||pickListafterRemove||After the items have been moved (when the "Remove" button gets invoked)||
-||beforeRemoveAll||pickListbeforeRemoveAll||Before any items have been moved (when the "Remove All" button gets invoked)||
-||afterRemoveAll||pickListafterRemoveAll||After the items have been moved (when the "Remove All" button gets invoked)||
-||onChange||pickListonChange||Whenever one or more items are added to, or removed from, the "target" list||
-||beforeRefresh||pickListbeforeRefresh||Just before the widget is refreshed||
-||afterRefresh||pickListafterRefresh||Just after the widget is refreshed||
-||beforeRefreshControls||pickListbeforeRefreshControls||Just before the widget's control buttons are refreshed||
-||afterRefreshControls||pickListafterRefreshControls||Just after the widget's control buttons are refreshed||
-||onDestroy||pickListonDestroy||When the widget is destroyed||
+||[#afterBuild afterBuild]||pickListafterBuild||Just after the picklist is initially built||
+||[#beforePopulate beforePopulate]||pickListbeforePopulate||Just before the "source" and "target" lists are initially populated||
+||[#afterPopulate afterPopulate]||pickListafterPopulate||Just after the "source" and "target" lists are initially populated||
+||[#beforeAddAll beforeAddAll]||pickListbeforeAddAll||Before any items have been moved (when the "Add All" button gets invoked)||
+||[#afterAddAll afterAddAll]||pickListafterAddAll||After the items have been moved (when the "Add All" button gets invoked)||
+||[#beforeAdd beforeAdd]||pickListbeforeAdd||Before any items have been moved (when the "Add" button gets invoked)||
+||[#afterAdd afterAdd]||pickListafterAdd||After the items have been moved (when the "Add" button gets invoked)||
+||[#beforeRemove beforeRemove]||pickListbeforeRemove||Before any items have been moved (when the "Remove" button gets invoked)||
+||[#afterRemove afterRemove]||pickListafterRemove||After the items have been moved (when the "Remove" button gets invoked)||
+||[#beforeRemoveAll beforeRemoveAll]||pickListbeforeRemoveAll||Before any items have been moved (when the "Remove All" button gets invoked)||
+||[#afterRemoveAll afterRemoveAll]||pickListafterRemoveAll||After the items have been moved (when the "Remove All" button gets invoked)||
+||[#onChange onChange]||pickListonChange||Whenever one or more items are added to, or removed from, the "target" list||
+||[#beforeRefresh beforeRefresh]||pickListbeforeRefresh||Just before the widget is refreshed||
+||[#afterRefresh afterRefresh]||pickListafterRefresh||Just after the widget is refreshed||
+||[#beforeRefreshControls beforeRefreshControls]||pickListbeforeRefreshControls||Just before the widget's control buttons are refreshed||
+||[#afterRefreshControls afterRefreshControls]||pickListafterRefreshControls||Just after the widget's control buttons are refreshed||
+||[#onDestroy onDestroy]||pickListonDestroy||When the widget is destroyed||
 
 ==beforeBuild==
 
