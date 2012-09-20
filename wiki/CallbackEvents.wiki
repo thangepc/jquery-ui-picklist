@@ -341,3 +341,27 @@ $(".selector").bind("pickListonChange", function() {
     ...
 });
 }}}
+
+----
+
+==beforeRefresh==
+
+This event is triggered just before the widget is refreshed.
+
+====Code Example====
+
+Supply a callback function to handle the `beforeRefresh` event as an init option.
+
+{{{
+$(".selector").pickList({
+    beforeRefresh: function() { ... }
+});
+}}}
+
+Bind to the `beforeRefresh` event by type: `pickListbeforeRefresh`
+
+{{{
+$(".selector").bind("beforeRefresh", function() {
+    ...
+});
+}}}
