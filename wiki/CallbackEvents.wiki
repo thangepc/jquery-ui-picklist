@@ -289,7 +289,7 @@ $(".selector").pickList({
 Bind to the `beforeRemoveAll` event by type: `pickListbeforeRemoveAll`
 
 {{{
-$(".selector").bind("beforeRemoveAll", function() {
+$(".selector").bind("pickListbeforeRemoveAll", function() {
     ...
 });
 }}}
@@ -361,7 +361,7 @@ $(".selector").pickList({
 Bind to the `beforeRefresh` event by type: `pickListbeforeRefresh`
 
 {{{
-$(".selector").bind("beforeRefresh", function() {
+$(".selector").bind("pickListbeforeRefresh", function() {
     ...
 });
 }}}
@@ -385,7 +385,7 @@ $(".selector").pickList({
 Bind to the `afterRefresh` event by type: `pickListafterRefresh`
 
 {{{
-$(".selector").bind("afterRefresh", function() {
+$(".selector").bind("pickListafterRefresh", function() {
     ...
 });
 }}}
