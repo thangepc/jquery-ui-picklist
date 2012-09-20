@@ -1,8 +1,6 @@
 #summary Hooking into the widget's callback events
 #labels Featured
 
-=Introduction=
-
 Several callback events were added to the widget to facilitate extending or altering the functionality without having to directly modify the widget's source code. This page documents what events are exposed and how to use them.
 
 
