@@ -1,0 +1,31 @@
+#summary Hooking into the widget's callback events
+#labels Featured
+
+= Introduction =
+
+Several callback events were added to the widget to facilitate extending or altering the functionality without having to directly modify the widget's source code. This page documents what events are exposed and how to use them.
+
+
+= Events =
+
+Click on an event name to view more information.
+
+||*Name*||*Type*||*Gets Fired...*||
+||beforeBuild||pickListbeforeBuild||Just before the picklist is initially built||
+||afterBuild||pickListafterBuild||Just after the picklist is initially built||
+||beforePopulate||pickListbeforePopulate||Just before the "source" and "target" lists are initially populated||
+||afterPopulate||pickListafterPopulate||Just after the "source" and "target" lists are initially populated||
+||beforeAddAll||pickListbeforeAddAll||Before any items have been moved (when the "Add All" button gets invoked)||
+||afterAddAll||pickListafterAddAll||After the items have been moved (when the "Add All" button gets invoked)||
+||beforeAdd||pickListbeforeAdd||Before any items have been moved (when the "Add" button gets invoked)||
+||afterAdd||pickListafterAdd||After the items have been moved (when the "Add" button gets invoked)||
+||beforeRemove||pickListbeforeRemove||Before any items have been moved (when the "Remove" button gets invoked)||
+||afterRemove||pickListafterRemove||After the items have been moved (when the "Remove" button gets invoked)||
+||beforeRemoveAll||pickListbeforeRemoveAll||Before any items have been moved (when the "Remove All" button gets invoked)||
+||afterRemoveAll||pickListafterRemoveAll||After the items have been moved (when the "Remove All" button gets invoked)||
+||onChange||pickListonChange||Whenever one or more items are added or removed in the "target" list||
+||beforeRefresh||pickListbeforeRefresh||Just before the widget is refreshed||
+||afterRefresh||pickListafterRefresh||Just after the widget is refreshed||
+||beforeRefreshControls||pickListbeforeRefreshControls||Just before the widget's control buttons are refreshed||
+||afterRefreshControls||pickListafterRefreshControls||Just after the widget's control buttons are refreshed||
+||onDestroy||pickListonDestroy||When the widget is destroyed||
