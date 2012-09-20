@@ -365,3 +365,27 @@ $(".selector").bind("beforeRefresh", function() {
     ...
 });
 }}}
+
+----
+
+==afterRefresh==
+
+This event is triggered just after the widget is refreshed.
+
+====Code Example====
+
+Supply a callback function to handle the `afterRefresh` event as an init option.
+
+{{{
+$(".selector").pickList({
+    afterRefresh: function() { ... }
+});
+}}}
+
+Bind to the `afterRefresh` event by type: `pickListafterRefresh`
+
+{{{
+$(".selector").bind("afterRefresh", function() {
+    ...
+});
+}}}
