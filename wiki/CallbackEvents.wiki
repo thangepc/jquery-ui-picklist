@@ -437,3 +437,27 @@ $(".selector").bind("pickListafterRefreshControls", function() {
     ...
 });
 }}}
+
+----
+
+==onDestroy==
+
+This event is triggered when the widget gets destroyed.
+
+====Code Example====
+
+Supply a callback function to handle the `onDestroy` event as an init option.
+
+{{{
+$(".selector").pickList({
+    onDestroy: function() { ... }
+});
+}}}
+
+Bind to the `onDestroy` event by type: `pickListonDestroy`
+
+{{{
+$(".selector").bind("pickListonDestroy", function() {
+    ...
+});
+}}}
