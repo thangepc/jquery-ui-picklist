@@ -10,7 +10,7 @@ Several callback events were added to the widget to facilitate extending or alte
 
 Click on an event name to view more information.
 
-||*Name*||*Type*||*Gets Fired...*||
+||<b>Name</b>||<b>Type</b>||<b>Gets Fired...</b>||
 ||beforeBuild||pickListbeforeBuild||Just before the picklist is initially built||
 ||afterBuild||pickListafterBuild||Just after the picklist is initially built||
 ||beforePopulate||pickListbeforePopulate||Just before the "source" and "target" lists are initially populated||
