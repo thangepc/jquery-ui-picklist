@@ -389,3 +389,51 @@ $(".selector").bind("afterRefresh", function() {
     ...
 });
 }}}
+
+----
+
+==beforeRefreshControls==
+
+This event is triggered just before the widget's control buttons are refreshed.
+
+====Code Example====
+
+Supply a callback function to handle the `beforeRefreshControls` event as an init option.
+
+{{{
+$(".selector").pickList({
+    beforeRefreshControls: function() { ... }
+});
+}}}
+
+Bind to the `beforeRefreshControls` event by type: `pickListbeforeRefreshControls`
+
+{{{
+$(".selector").bind("pickListbeforeRefreshControls", function() {
+    ...
+});
+}}}
+
+----
+
+==afterRefreshControls==
+
+This event is triggered just after the widget's control buttons are refreshed.
+
+====Code Example====
+
+Supply a callback function to handle the `afterRefreshControls` event as an init option.
+
+{{{
+$(".selector").pickList({
+    afterRefreshControls: function() { ... }
+});
+}}}
+
+Bind to the `afterRefreshControls` event by type: `pickListafterRefreshControls`
+
+{{{
+$(".selector").bind("pickListafterRefreshControls", function() {
+    ...
+});
+}}}
