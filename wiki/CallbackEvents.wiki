@@ -48,10 +48,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeBuild` event by type: `pickListbeforeBuild`
+Bind to the `beforeBuild` event by type: `picklistbeforebuild`
 
 {{{
-$(".selector").bind("pickListbeforeBuild", function() {
+$(".selector").bind("picklistbeforebuild", function() {
     ...
 });
 }}}
@@ -72,10 +72,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterBuild` event by type: `pickListafterBuild`
+Bind to the `afterBuild` event by type: `picklistafterbuild`
 
 {{{
-$(".selector").bind("pickListafterBuild", function() {
+$(".selector").bind("picklistafterbuild", function() {
     ...
 });
 }}}
@@ -96,10 +96,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforePopulate` event by type: `pickListbeforePopulate`
+Bind to the `beforePopulate` event by type: `picklistbeforepopulate`
 
 {{{
-$(".selector").bind("pickListbeforePopulate", function() {
+$(".selector").bind("picklistbeforepopulate", function() {
     ...
 });
 }}}
@@ -120,10 +120,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterPopulate` event by type: `pickListafterPopulate`
+Bind to the `afterPopulate` event by type: `picklistafterpopulate`
 
 {{{
-$(".selector").bind("pickListafterPopulate", function() {
+$(".selector").bind("picklistafterpopulate", function() {
     ...
 });
 }}}
@@ -144,10 +144,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeAddAll` event by type: `pickListbeforeAddAll`
+Bind to the `beforeAddAll` event by type: `picklistbeforeaddall`
 
 {{{
-$(".selector").bind("pickListbeforeAddAll", function() {
+$(".selector").bind("picklistbeforeaddall", function() {
     ...
 });
 }}}
@@ -168,10 +168,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterAddAll` event by type: `pickListafterAddAll`
+Bind to the `afterAddAll` event by type: `picklistafteraddall`
 
 {{{
-$(".selector").bind("pickListafterAddAll", function() {
+$(".selector").bind("picklistafteraddall", function() {
     ...
 });
 }}}
@@ -192,10 +192,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeAdd` event by type: `pickListbeforeAdd`
+Bind to the `beforeAdd` event by type: `picklistbeforeadd`
 
 {{{
-$(".selector").bind("pickListbeforeAdd", function() {
+$(".selector").bind("picklistbeforeadd", function() {
     ...
 });
 }}}
@@ -216,10 +216,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterAdd` event by type: `pickListafterAdd`
+Bind to the `afterAdd` event by type: `picklistafteradd`
 
 {{{
-$(".selector").bind("pickListafterAdd", function() {
+$(".selector").bind("picklistafteradd", function() {
     ...
 });
 }}}
@@ -240,10 +240,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeRemove` event by type: `pickListbeforeRemove`
+Bind to the `beforeRemove` event by type: `picklistbeforeremove`
 
 {{{
-$(".selector").bind("pickListbeforeRemove", function() {
+$(".selector").bind("picklistbeforeremove", function() {
     ...
 });
 }}}
@@ -264,10 +264,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterRemove` event by type: `pickListafterRemove`
+Bind to the `afterRemove` event by type: `picklistafterremove`
 
 {{{
-$(".selector").bind("pickListafterRemove", function() {
+$(".selector").bind("picklistafterremove", function() {
     ...
 });
 }}}
@@ -288,10 +288,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeRemoveAll` event by type: `pickListbeforeRemoveAll`
+Bind to the `beforeRemoveAll` event by type: `picklistbeforeremoveall`
 
 {{{
-$(".selector").bind("pickListbeforeRemoveAll", function() {
+$(".selector").bind("picklistbeforeremoveall", function() {
     ...
 });
 }}}
@@ -312,10 +312,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterRemoveAll` event by type: `pickListafterRemoveAll`
+Bind to the `afterRemoveAll` event by type: `picklistafterremoveall`
 
 {{{
-$(".selector").bind("pickListafterRemoveAll", function() {
+$(".selector").bind("picklistafterremoveall", function() {
     ...
 });
 }}}
@@ -336,10 +336,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `onChange` event by type: `pickListonChange`
+Bind to the `onChange` event by type: `picklistonchange`
 
 {{{
-$(".selector").bind("pickListonChange", function() {
+$(".selector").bind("picklistonchange", function() {
     ...
 });
 }}}
@@ -360,10 +360,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeRefresh` event by type: `pickListbeforeRefresh`
+Bind to the `beforeRefresh` event by type: `picklistbeforerefresh`
 
 {{{
-$(".selector").bind("pickListbeforeRefresh", function() {
+$(".selector").bind("picklistbeforerefresh", function() {
     ...
 });
 }}}
@@ -384,10 +384,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterRefresh` event by type: `pickListafterRefresh`
+Bind to the `afterRefresh` event by type: `picklistafterrefresh`
 
 {{{
-$(".selector").bind("pickListafterRefresh", function() {
+$(".selector").bind("picklistafterrefresh", function() {
     ...
 });
 }}}
@@ -408,10 +408,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `beforeRefreshControls` event by type: `pickListbeforeRefreshControls`
+Bind to the `beforeRefreshControls` event by type: `picklistbeforerefreshcontrols`
 
 {{{
-$(".selector").bind("pickListbeforeRefreshControls", function() {
+$(".selector").bind("picklistbeforerefreshcontrols", function() {
     ...
 });
 }}}
@@ -432,10 +432,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `afterRefreshControls` event by type: `pickListafterRefreshControls`
+Bind to the `afterRefreshControls` event by type: `picklistafterrefreshcontrols`
 
 {{{
-$(".selector").bind("pickListafterRefreshControls", function() {
+$(".selector").bind("picklistafterrefreshcontrols", function() {
     ...
 });
 }}}
@@ -456,10 +456,10 @@ $(".selector").pickList({
 });
 }}}
 
-Bind to the `onDestroy` event by type: `pickListonDestroy`
+Bind to the `onDestroy` event by type: `picklistondestroy`
 
 {{{
-$(".selector").bind("pickListonDestroy", function() {
+$(".selector").bind("picklistondestroy", function() {
     ...
 });
 }}}
