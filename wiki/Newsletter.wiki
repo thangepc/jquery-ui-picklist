@@ -1,3 +1,0 @@
-#summary Get notified of new releases
-
-http://www.freelists.org/list/jquery-picklist
